@@ -1,0 +1,18 @@
+@font-face {
+    font-family: SansationRegular;
+    src: url("./fonts/Sansation_Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: SansationBold;
+    src: url("./fonts/Sansation_Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: SansationItalic;
+    src: url("./fonts/Sansation_Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}

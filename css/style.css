@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    font-family:'SansationRegular';
+}
+
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    height: 60px;
+    clear: both;
+    position: absolute;
+    border-bottom: 1px solid #695f89;
+}
+.logo{
+    float: left;
+    margin: 20px 0 0 30px;
+}
+.logo>a{
+    display: inline-block;
+    width: 65px;
+    height: 18px;
+    background-image: url("./images/logo.png");
+}
+.headerMenu{
+    float: left;
+    margin-top: 20px;
+}
+.headerMenu li{
+    float: left;
+    margin-left: 60px;
+    font-size: 16px;
+}
+.headerMenu li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.headerMenu .activ, .headerMenu li a:hover{
+    color: #097e89;
+}
+
+.headerSocial{
+    float: left;
+    margin: 15px 0 0 27px;
+    padding: 0 22px 0 0;
+
+}
+.headerSocial>a{
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+}
+.headerFacebook{
+    background: url("./images/fb_icon_1.png") center no-repeat;
+}
+.headerTwitter{
+    background: url("./images/tw_icon_1.png") center no-repeat;
+}
+.headerGoogle{
+    background: url("./images/g_icon_1.png") center no-repeat;
+}
+
+
+.jumbotron{
+    height: 490px;
+    padding-top:60px;
+    background: url("./images/banner_bg.png") center no-repeat;
+   /* z-index: 1;*/
+}
+.jumbotronTextBox{
+    height: 196px;
+    width: 538px;
+    margin:125px auto 0 auto;
+    padding-top: 1px;
+    background: url("./images/jumbotrontextboxborder.png") center no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+.jumbotronTextBox h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+.jumbotronTextBox p{
+    font-size: 10px;
+    width: 333px;
+    margin: 30px auto 0 auto;
+}
+.jumbotronTextBox a{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    width: 106px;
+    height: 31px;
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+    margin-top: 35px;
+    padding-top: 6px;
+}
+.about{
+    /*height:415px;
+    background: url("./images/rectangle_3.jpg") center no-repeat;
+    background-position: -100px -60px;*/
+}
+.container{clear: both;}
+.aboutImage{
+    width: 498px;
+    height:415px;
+    min-height: 10px;
+    background: url("./images/rectangle_3.jpg") center no-repeat;
+    background-size: 150%;
+    background-position: -65px -12px;
+    float: left;
+}
+.aboutText{
+    width: 502px;
+    float: left;
+    background: url("./images/backgroundwhite.png") center repeat;
+    box-sizing: border-box;
+    padding: 50px 70px 0 45px;
+}
+.aboutText h3{
+    font-size: 24px;
+    color: #252525;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #515151;
+    padding-bottom: 12px;
+}
+
+.aboutText p{
+    font-size: 13px;
+    margin-bottom: 24px;
+}
+.aboutText a{
+    font-size: 11px;
+    display: inline-block;
+    background-color: #05a0af;
+    border-radius: 2px;
+    width: 161px;
+    height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 8px 0 0 22px;
+    margin-top: 30px;
+}
