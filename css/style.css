@@ -46,8 +46,14 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 body{
     font-family:'SansationRegular';
+    font-size: 12px;
+}
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .main{
@@ -196,4 +202,60 @@ body{
     box-sizing: border-box;
     padding: 8px 0 0 22px;
     margin-top: 30px;
+}
+.service{
+    color: #ffffff;
+    text-align: center;
+    background-color: #3d3d3d;
+}
+.service h2{
+
+    padding: 56px 0 53px 0;
+    color: #ffffff;
+    background-color: #373737;
+    position: relative;
+}
+.service h2::after, .service h2::before{
+    content: " ";
+    position: absolute;
+    height: 3px;
+    width: 72px;
+    background-color: #ffffff;
+    top: 89px;
+}
+.service h2::after{
+    left: 650px;
+}
+.service h2::before{
+    left: 275px;
+}
+.serviceItem{
+    width: 33%;
+    float: left;
+    background: url("./images/web_developmen.png") no-repeat;
+    background-position: center 145px;
+    background-color: #3d3d3d;
+    padding: 270px 2px 135px 1px;
+}
+.serviceItem:hover{
+    background-color: #097e89;
+}
+.serviceItem h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.serviceItem p{
+    padding: 20px 17px 32px 18px;
+    font-size: 14px;
+}
+.serviceItem a{
+    background-color: #959595;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 9px 25px 10px 25px;
 }
