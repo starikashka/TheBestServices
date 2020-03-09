@@ -162,6 +162,10 @@ h2{
     background-position: -100px -60px;*/
 }
 .container{clear: both;}
+.clearFix{
+    content: " ";
+    clear: both;
+}
 .aboutImage{
     width: 498px;
     height:415px;
@@ -207,6 +211,7 @@ h2{
     color: #ffffff;
     text-align: center;
     background-color: #3d3d3d;
+    position: relative;
 }
 .service h2, .feedback h2{
     box-sizing: border-box;
@@ -219,15 +224,17 @@ h2{
     content: " ";
     position: absolute;
     height: 3px;
-    width: 72px;
-    background-color: #ffffff;
+    width: 305px;
+    /*background-color: #ffffff;*/
     top: 89px;
 }
 .service h2::after, .feedback h2::after{
-    left: 650px;
+    right: 38px;
+    background: url("images/leftlinewhite.png") center no-repeat;
 }
 .service h2::before, .feedback h2::before{
-    left: 275px;
+    left: 47px;
+    background: url("images/rightlinewhite.png") center no-repeat;
 }
 .serviceItem{
     width: 33%;
@@ -261,6 +268,24 @@ h2{
     display: inline-block;
     border-radius: 2px;
     padding: 9px 25px 10px 25px;
+}
+.servicesScroll{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+}
+.servicesScrollBefore, .servicesScrollNext{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.servicesScrollBefore{
+    background: url("./images/servicesScrollBefore.png") no-repeat;
+    margin-right: 1px;
+}
+.servicesScrollNext{
+    background: url("./images/servicesScrollNext.png") no-repeat;
 }
 .feedback{
     height: 420px;
@@ -330,6 +355,7 @@ h2{
     color: #656464;
     text-align: center;
     background-color: #ffffff;
+    padding-bottom: 30px;
 }
 .clients h2{
     box-sizing: border-box;
@@ -341,20 +367,21 @@ h2{
     content: " ";
     position: absolute;
     height: 3px;
-    width: 72px;
-    background-color: #656464;
+    width: 305px;
     top: 89px;
 }
 .clients h2::after{
-    left: 650px;
+    right: 38px;
+    background: url("images/rightlinegrey.png") center no-repeat;
 }
 .clients h2::before{
-    left: 275px;
+    left: 47px;
+    background: url("images/leftlinegrey.png") center no-repeat;
 }
 
 .clientsItem{
     float: left;
-    margin: 100px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     width: 25%;
     text-align: center;
     height: 200px;
