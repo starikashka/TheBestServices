@@ -366,5 +366,54 @@ h2{
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%);
+}
+.queriesAndCall{
+    background-color:#097e89;
+    height: 173px;
+    color: #ffffff;
+}
+.queries{
+    width: 400px;
+    float: left;
+    margin: 28px 0 0 42px;
+    font-size: 10px;
+    line-height: 20px;
+}
+.queries h3{
+    font-size: 25px;
+    margin-bottom: 27px;
+}
+.queriesAndCall form{
+    float: left;
+    margin: 63px 0 0 0;
+}
+.queriesAndCall form input{
+    width: 204px;
+    height: 43px;
+    font-size:10px;
+    margin: 0 0 0 0;
+    border: 1px solid #84bfc4;
+    background-color:#097e89;
+    color: #84bfc4;
+    box-sizing: border-box;
+    padding: 0 0 0 23px;
+}
+.queriesAndCall form input:nth-child(1){
+    border-radius: 4px 0 0 4px;
+}
+.queriesAndCall form input:nth-child(2){
+    margin: 0 0 0 -3px;
+}
+.queriesAndCall form button{
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 12px;
+    width: 99px;
+    height: 44px;
+    background-color:#ffffff;
+    color: #097e89;
+    border: none;
+    margin: 0 0 0 -3px;
+    border-radius: 0 4px 4px 0;
 }
