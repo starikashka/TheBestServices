@@ -326,3 +326,45 @@ h2{
     text-align: left;
     padding: 4px 0 0 5px;
 }
+.clients{
+    color: #656464;
+    text-align: center;
+    background-color: #ffffff;
+}
+.clients h2{
+    box-sizing: border-box;
+    padding: 56px 0 53px 0;
+    color: #656464;
+    position: relative;
+}
+.clients h2::after, .clients h2::before{
+    content: " ";
+    position: absolute;
+    height: 3px;
+    width: 72px;
+    background-color: #656464;
+    top: 89px;
+}
+.clients h2::after{
+    left: 650px;
+}
+.clients h2::before{
+    left: 275px;
+}
+
+.clientsItem{
+    float: left;
+    margin: 100px 0px 0px 0px;
+    width: 25%;
+    text-align: center;
+    height: 200px;
+    position: relative;
+}
+.clientsItem a{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
