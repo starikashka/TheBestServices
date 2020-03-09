@@ -417,3 +417,91 @@ h2{
     margin: 0 0 0 -3px;
     border-radius: 0 4px 4px 0;
 }
+
+.footer{
+    height: 210px;
+    background-color: #474747;
+    font-size: 12px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.footerMenu{
+    width: 120px;
+    float:left;
+    margin: 30px 0 0 40px;
+}
+.footerMenu h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+}
+.footerMenu h4:after{
+    content: " ";
+    position: absolute;
+    height: 1px;
+    width: 28px;
+    background-color: #ffffff;
+    left: 0;
+    bottom: 0;
+}
+.footerMenu ul{
+    margin: 15px 0 0 0;
+}
+.subscribeAndSocial form{
+    float: left;
+    margin: 40px 0 0 235px;
+}
+.subscribeAndSocial form input{
+    width: 153px;
+    height: 44px;
+    font-family: "Myriad Pro";
+    font-size:15px;
+    margin: 0 0 0 0;
+    border: 1px solid #84bfc4;
+    background-color:#cccccc;
+    color: #474747;
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
+}
+.subscribeAndSocial form button{
+    font-family: "Myriad Pro";
+    /*font-weight: bold;*/
+    font-size: 16px;
+    width: 102px;
+    height: 44px;
+    background-color:#0072bc;
+    color: #ffffff;
+    border: none;
+    margin: 0 0 0 -3px;
+    border: 1px solid #cccccc;
+    padding: 0 0 1px 0;
+}
+.footerSocial{
+    float: left;
+    margin: 42px 0 0 235px;
+    padding: 0 22px 0 0;
+
+}
+.footerSocial>a{
+    display: inline-block;
+    width: 36px;
+    height: 41px;
+}
+.footerFacebook{
+    background: url("./images/facebookblack.png") center no-repeat;
+}
+.footerTwitter{
+    background: url("./images/twitterblack.png") center no-repeat;
+}
+.footerGoogle{
+    background: url("./images/googleblack.png") center no-repeat;
+}
+.footerDribbble{
+    background: url("./images/dribbbleblack.png") center no-repeat;
+}
+.footerBeh{
+    background: url("./images/behblack.png") center no-repeat;
+}
+.footerInstagram{
+    background: url("./images/instagramblack.png") center no-repeat;
+}
