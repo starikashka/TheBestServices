@@ -203,19 +203,19 @@ h2{
     padding: 8px 0 0 22px;
     margin-top: 30px;
 }
-.service{
+.service, .feedback{
     color: #ffffff;
     text-align: center;
     background-color: #3d3d3d;
 }
-.service h2{
-
+.service h2, .feedback h2{
+    box-sizing: border-box;
     padding: 56px 0 53px 0;
     color: #ffffff;
     background-color: #373737;
     position: relative;
 }
-.service h2::after, .service h2::before{
+.service h2::after, .service h2::before, .feedback h2::after, .feedback h2::before{
     content: " ";
     position: absolute;
     height: 3px;
@@ -223,10 +223,10 @@ h2{
     background-color: #ffffff;
     top: 89px;
 }
-.service h2::after{
+.service h2::after, .feedback h2::after{
     left: 650px;
 }
-.service h2::before{
+.service h2::before, .feedback h2::before{
     left: 275px;
 }
 .serviceItem{
@@ -236,6 +236,9 @@ h2{
     background-position: center 145px;
     background-color: #3d3d3d;
     padding: 270px 2px 135px 1px;
+}
+.serviceItem:nth-child(3){
+    padding-right: 3px;
 }
 .serviceItem:hover{
     background-color: #097e89;
@@ -258,4 +261,68 @@ h2{
     display: inline-block;
     border-radius: 2px;
     padding: 9px 25px 10px 25px;
+}
+.feedback{
+    height: 420px;
+}
+.feedbackDescription{
+    float: left;
+    width: 225px;
+    margin: 69px 55px 0 54px;
+    font-size: 18px;
+}
+.feedbackDescription>p{
+    line-height: 24px;
+}
+.feedbackScroll{
+    box-sizing: border-box;
+    padding: 62px 0 0 0;
+    background: url("./images/textfeedback.png") no-repeat;
+    background-position: center 21px;
+    font-size: 14px;
+}
+.feedbackScroll>p{
+    width: 180px;
+    float: left;
+    padding-top: 6px;
+}
+.feedbackScrollBefore, .feedbackScrollNext{
+    width: 17px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+}
+.feedbackScrollBefore{
+    background: url("./images/feedbackScrollBefore.png") center no-repeat;
+}
+.feedbackScrollNext{
+    background: url("./images/feedbackScrollNext.png") center no-repeat;
+}
+.feedbackItem{
+    float: left;
+    position: relative;
+    width: 202px;
+    height: 223px;
+    margin: 27px 20px 0 0;
+}
+.feedbackItem span, .feedbackItem div{
+    position: absolute;
+    color: #515151;
+    background-color: #ffffff;
+    bottom: 9px;
+    box-sizing: border-box;
+}
+.feedbackItem span{
+    left: 9px;
+    height: 33px;
+    width: 43px;
+    padding: 12px 0 0 0;
+    font-size: 10px;
+}
+.feedbackItem div{
+    left: 57px;
+    height: 33px;
+    width: 136px;
+    text-align: left;
+    padding: 4px 0 0 5px;
 }
